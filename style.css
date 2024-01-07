@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+}
+.ftext {
+    color: white;
+}
+
+div.main{
+    width: 400px;
+    margin: 100px auto 0px auto;
+}
+h1, #req, #btn {
+    text-align: center;
+    
+}
+input[type="submit"] {
+    padding: 5px 40px;
+}
+input, textarea{
+ background-color: rgb(39, 36, 36);
+ color:white;
+}

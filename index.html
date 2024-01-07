@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registeration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+    <div class="register">
+
+    <h1 class="ftext">Registration Form</h1>
+    <p id="req" class="ftext">Please fill out this form with the required information</p>
+    <form id="register" method="post">
+        <label for="fname" class="ftext">Enter Your First Name:</label>
+        <br>
+        <input type="text" id="fname" name="fname" size= "50" required>
+        <br><br>
+        
+        <label for="lname" class="ftext">Enter Your Last Name:</label>
+        <br>
+        <input type="text" id="lname" name="lname" size= "50" required>
+        <br><br>
+        <label for="email" class="ftext">Enter Your Email:</label>
+        <br>
+        <input type="email" id="email" name="email" size= "50" required>
+        <br><br>
+        <label for="password" class="ftext">Create a New Password:</label>
+        <br>
+        <input type="password" id="password" name="password" size= "50" required>
+        <br><br><br>
+        <hr>
+        <br><br>
+        <p class="ftext"><input type="radio" name="account">Personal Account </p>
+        <p class="ftext"><input type="radio" name="account" >"Business Account</p>
+        <p class="ftext"><input type="checkbox">I accept  <u>the terms and condition</u>
+         </p>
+         <hr>
+         <p class="ftext">Upload a Profile Picture:
+         <br>
+         <input type="file" class="ftext">
+         </p>
+         <label for="age" class="ftext"> Input your age (Years):</label>
+        
+         <br>
+         <input type="text" id="age" name="age" size= "50" required>
+         <br><br>
+         <label class="ftext"> How did you hear about us:
+          </label><br><br>
+          <select name="optional">
+            <option value="contacted" selected>(select one)</option>
+           </select>
+           <br><br>
+           <label class="ftext"> Provide a bio:</label>
+           <br>
+           <textarea name="comments" cols="50" rows="4">I like coding on beach...</textarea>
+           <p id="btn"><input type="submit" value="submit">Submit</input></p>
+    </form>
+</div> <!--end register-->
+</div><!--end main-->
+</body>
+</html>
